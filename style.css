@@ -283,6 +283,7 @@ nav ul li a:hover::after {
 }
 .contact-left p {
     margin-top: 20px;
+    text-decoration: none;
 }
 .contact-left p i {
     color: #f51717;
