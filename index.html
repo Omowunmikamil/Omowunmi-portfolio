@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/e98c27c3ea.js" crossorigin="anonymous"></script>
+    <title>Omowunmi Kamiludeen Portfolio</title>
+    
+  </head>
+  <body>
+    <!-------Home------->
+    <header>
+        <div id="header">
+          <div class="container">
+            
+            <nav>
+              <img src="/img/LogoO.png" class="logo">
+
+                <ul id="sidemenu">
+                  <li><a href="#header" onclick="closemenu()">Home</a></li>
+                  <li><a href="#about" onclick="closemenu()">About</a></li>
+                  <li><a href="#services" onclick="closemenu()">Services</a></li>
+                  <li><a href="#portfolio" onclick="closemenu()">Portfolio</a></li>
+                  <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+                  <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+              <p>Frontend Developer.</p>
+              <h1>Hello, I'm <span>Omowunmi</span> <br>Kamiludeen, From <br>Nigeria.</h1>
+            </div>
+          </div>
+        </div>
+        
+    </header>
+      
+    <main>
+
+        <!------about------->
+        <div id="about">
+          <div class="container">
+            <div class="row">
+              <div class="about-col-1">
+                <img src="/img/myphoto1.png">
+              </div>
+              <div class="about-col-2">
+                <h1 class="sub-title">About <span>Me</span></h1>
+                <p>Hello, I'm Omowunmi KamiludeenI am a creative frontend developer with a good start in product designing. I have a good team spirit and a strong desire to work in challenging and innovative roles. 
+                  <br>
+                  I can provide clean code with pixel-perfect and responsive web designs. I also make the website more interactive with web animations. A responsive design makes your website accessible to all users, regardless of their devices or diversity.</p>
+
+                  <p>I'm a self-driving and instinctual web developer crafting and developing intermediate digital products with responsiveness to enhance user interactions and experience.</p>
+
+                  <p>I'm looking to secure a career opportunity that will broaden my knowledge, speed, accuracy, responsiveness, and creativity; employ the skills, and practice while ensuring result-oriented efforts in boosting the productivity of organizations.
+                  </p>
+
+                <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="opentab('skills')">Soft-Skills</p>
+                  <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                  <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                    <li><span>Communication</span><br> I understand that communication is strong verbal and written communication skills are essential to keeping everyone on the same ideas and implementing the projects.
+                    </li>
+                    <li><span>Problem Solving</span><br>Problem-solving is an important skill to have as a Software Developer, knowing how to solve problems of products/projects is an important skill-set. I have to craft something into a useful experience for users, not only to create something beautiful but also to make it accessible and responsive for users.</li>
+                    <li><span>Learning
+                    </span><br>Software Engineering is a lifelong learning process; I keep learning every day with different ideas, as technologies keep advancing. I am often described as a rare gem and always embracing new ideas from others, I am open to critics. As the tech industry evolves, I will be the one to keep up with all new development to get ahead of the latest trends.</li>
+                  </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                  <ul>
+                    <li><span>2019 - 2021</span><br>Head of Operation at Kazmani mobile massage.</li>
+                    <li><span>2021 - 2022</span><br>Assistant Manager at Juin mobile massage.</li>
+                    <li><span>2021 - 2022</span><br>Graphics & Product Designing training at DesignU.</li>
+                    <li><span>August 2022</span><br>Frontend Development at ZURI.</li>
+                    <li><span>October 2022</span><br>Participant at the frontend mentor.</li>
+                  </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                  <ul>
+                    <li><span>2017</span><br>History & International Relations at Osun State University.</li>
+                    <li><span>2019</span><br>Terapuitic massage certification at The Learning Edge.</li>
+                    <li><span>2021</span><br>Graphics & Product Designer certification at DesignU.</li>
+                    <li><span>Currently</span><br>Self learning Frontend Development.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-------Services-------> 
+      <div id="services">
+        <div class="container">
+          <h1 class="sub-title">My <span>Services</span></h1>
+          <div class="services-list">
+            <div>
+              <i class="fa-solid fa-code"></i>
+              <h2>Web Development</h2>
+              <p>Web Development is the work involving in the development of a website for the Internet (World Wide Web) or an intranet (a private network).Web development can range from developing a simple single static web page of plain text to complex web applications, electronic businesses, and social networks and services.</p>
+              <a href="https://en.m.wikipedia.org/wiki/Web_development">Learn more</a>
+            </div>
+            <div>
+              <i class="fa-brands fa-uikit"></i>
+              <h2>Product Design</h2>
+              <p>Product design is the creation of new product to be sold by a business to its customers. It is a very broad coefficient and effective generation and development of ideas through a process that leads to new products or services. Thus, it is a major aspect of new product development to help enhance users' experience and daily needs.
+              </p>
+              <a href="https://en.m.wikipedia.org/wiki/Product_design">Learn more</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-crop-simple"></i>
+              <h2>Graphics Design</h2>
+              <p>Graphic design is the creation of visual content to communicate messages socially and physically to groups, using specific objectives. By applying visual hierarchy and page layout techniques, using typography and pictures to meet users' specific needs, and focusing on the logic of displaying elements in interactive designs.</p>
+              <a href="https://en.m.wikipedia.org/wiki/Graphic_design">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-------Portfolio------->
+      <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title">My <span>Work</span></h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="/img/breadedcafe1.png">
+              <div class="layer">
+                <h3>Breaded Cafe</h3>
+                <p>This is a table webpage, that allows institutions and tutors able to store and record student date with ease.</p>
+                <a href="https://breaded-cafe.netlify.app/index.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="/img/regpage.png">
+              <div class="layer">
+                <h3>Registration Form</h3>
+                <p>This is spa landing webpage, that allows user able to view the website activities frim the home page, through a drop down menu.</p>
+                <a href="https://responsive-reg-page.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="/img/edenspa1.png">
+              <div class="layer">
+                <h3>Registration Form</h3>
+                <p>This is spa landing webpage, that allows user able to view the website activities frim the home page, through a drop down menu.</p>
+                <a href="https://edenspa.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+            </div>
+          </div>
+          <a href="/work.html" class="btn">See more</a>
+        </div>
+      </div>
+
+      <!------Contact------->
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact <span>Me</span></h1>
+              <p><i class="fa-solid fa-paper-plane"></i>balikiskamil@gmail.com</p>
+              <p><i class="fa-solid fa-phone"></i>+2348138777481</p>
+              <div class="social-icons">
+                <a href="https://www.linkedin.com/in/omowunmi-kamiludeen/"><i class="fa-brands fa-linkedin"></i></i></a>
+              <a href="https://github.com/Omowunmijuin"><i class="fa-brands fa-github"></i></i></a>
+              <a href="https://twitter.com/Dev_juin_io"><i class="fa-brands fa-twitter"></i></i></a>
+              <a href="https://api.whatsapp.com/send?phone=2348138777481&text=Hello,%20Omowunmi%20Kamiludeen%20here,%20drop%20a%20message%20I%27ll%20get%20back%20to%20it%20shortly.%20"><i class="fa-brands fa-whatsapp"></i></i></a>
+              <a href="https://web.facebook.com/omowunmi.kamil"><i class="fa-brands fa-facebook"></i></a>
+              </div>
+              <a href="https://drive.google.com/file/d/1F2QDNeq7LVXrbbFb_CTFgcRZVcMf08sk/view?usp=sharing" class="btn btn2">Resume</a>
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="text" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+              <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    <main>
+    <footer>
+      
+        <p>Omowunmi <span>Kamiludeen</span>
+        </p>
+        <p>Thank You...</p>
+
+        <p class="end">&copy; CopyRight By Omowunmi Kamiludeen</p>
+    </footer>
+
+    <script>
+
+      let tablinks = document.getElementsByClassName("tab-links");
+      let tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      let sidemenu = document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      function closemenu(){
+        sidemenu.style.right = "-150px";
+      }
+      function closemenu(){
+        sidemenu.style.right = "-150px"
+      }
+
+    </script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwNqdlEk5dC4oWEpCMc6gb1rO_dbQKtnj9FhH1ANbooH9_dLI4LtXCZFHgQT1mfXdEcww/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML ="Message sent successfully!"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+  </body>
+</html>
