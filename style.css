@@ -202,16 +202,20 @@ nav ul li a:hover::after {
 .work-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-    grid-gap: 40px;
+    grid-gap: 30px;
     margin-top: 50px;
+    border: 2px solid pink;
 }
 .work {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    height: 310px;
+    border: 2px solid #ff0000;
 }
 .work img {
     width: 100%;
+    height: 100%;
     border-radius: 10px;
     display: block;
     transition: 0.5s;
